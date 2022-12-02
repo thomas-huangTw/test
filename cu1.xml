@@ -1,44 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?><gnbvs xmlns="urn:rdns:com:radisys:nr:gnb">
                      <gnbCuConfig>
                            <id>0</id>
-               <anrEnabled>false</anrEnabled>
-               <hoBasedAnrEnabled>false</hoBasedAnrEnabled>
-               <scheduleTime>
-                 <hrs>12</hrs>
-                 <min>0</min>
-               </scheduleTime>
-               <scheduleRepeatTimerHrs>12</scheduleRepeatTimerHrs>
-               <scheduleDurationTimerMin>10</scheduleDurationTimerMin>
-               <rankingTime>
-                 <hrs>21</hrs>
-                 <min>0</min>
-               </rankingTime>
-               <rankingPeriodicityTimerHrs>12</rankingPeriodicityTimerHrs>
-               <rankingDurationTimer>24</rankingDurationTimer>
-               <rankingWeightage>0.5</rankingWeightage>
-               <waitTimer>10</waitTimer>
-               <ueSearchRateInScheduledAnr>5</ueSearchRateInScheduledAnr>
-               <blackListedPlmn>
-                 <index>0</index>
-                 <MCC>405</MCC>
-                 <MNC>55</MNC>
-               </blackListedPlmn>
-               <anrNrArfcn>65535</anrNrArfcn>
-               <anrEvent>A3</anrEvent>
-               <nrtSize>6</nrtSize>
-               <nr321TimeOutInSec>3</nr321TimeOutInSec>
-               <unnecessaryNeighborPresent>true</unnecessaryNeighborPresent>
-               <nrtSizeThreshold>5</nrtSizeThreshold>
-               <rankThreshold>5</rankThreshold>
-               <neighborCausingHoDegradationPresent>false</neighborCausingHoDegradationPresent>
-               <hoEexecutionSuccessThreshold>5</hoEexecutionSuccessThreshold>
-               <hoExecutionSuccessRate>5</hoExecutionSuccessRate>
-               <invalidNeighborPresent>false</invalidNeighborPresent>
-               <consecutiveHoPreparationThreshold>5</consecutiveHoPreparationThreshold>
-               <consecutiveHOPreparationCauses>5</consecutiveHOPreparationCauses>
-               <hoBlackListPresent>false</hoBlackListPresent>
-               <purgeTimer>1440</purgeTimer>
-               <pciCollisionGuardTimer>SEC_10</pciCollisionGuardTimer>
-               <enable2ndDgrNbrCollDetect>false</enable2ndDgrNbrCollDetect>
+               <numOutboundStreams>2</numOutboundStreams>
+               <maxInboundStreams>2</maxInboundStreams>
+               <maxInitAttempts>5</maxInitAttempts>
+               <heartBeatIntervalInMs>5000</heartBeatIntervalInMs>
+               <maxPathRetx>1</maxPathRetx>
+               <rtoInitial>3000</rtoInitial>
+               <rtomin>1000</rtomin>
+               <rtomax>60000</rtomax>
+               <f1cServerLocalIpAddress>6.1.112.112</f1cServerLocalIpAddress>
+               <x2cServerLocalIpAddress>168.168.31.201</x2cServerLocalIpAddress>
+               <xncServerLocalIpAddress>172.20.5.4</xncServerLocalIpAddress>
+               <xncClientLocalIpAddress>172.20.6.4</xncClientLocalIpAddress>
                      </gnbCuConfig>
                    </gnbvs>

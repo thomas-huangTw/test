@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?><gnbvs xmlns="urn:rdns:com:radisys:nr:gnb">
+              <gnbCuConfig>
+              <id>0</id>
+                        <sendUdpPortExtWithErrorInd>true</sendUdpPortExtWithErrorInd>
+                        <endMarkerTimerInMs>2000</endMarkerTimerInMs>
+                        <pathMgmtConfig>
+                           <echoT3ResponseInSec>1</echoT3ResponseInSec>
+                           <echoN3Requests></echoN3Requests>
+                           <echoIntervalInSec>60</echoIntervalInSec>
+                        </pathMgmtConfig>
+              </gnbCuConfig>
+           </gnbvs>

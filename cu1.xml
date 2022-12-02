@@ -4,7 +4,7 @@
                <numOutboundStreams>2</numOutboundStreams>
                <maxInboundStreams>2</maxInboundStreams>
                <maxInitAttempts>5</maxInitAttempts>
-               <heartBeatIntervalInMs>5000</heartBeatIntervalInMs>
+               <heartBeatIntervalInMs>4000</heartBeatIntervalInMs>
                <maxPathRetx>1</maxPathRetx>
                <rtoInitial>3000</rtoInitial>
                <rtomin>1000</rtomin>

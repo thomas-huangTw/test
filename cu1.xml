@@ -1,17 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?><gnbvs xmlns="urn:rdns:com:radisys:nr:gnb">
-                     <gnbCuConfig>
-                           <id>0</id>
-               <numOutboundStreams>2</numOutboundStreams>
-               <maxInboundStreams>2</maxInboundStreams>
-               <maxInitAttempts>5</maxInitAttempts>
-               <heartBeatIntervalInMs>4000</heartBeatIntervalInMs>
-               <maxPathRetx>1</maxPathRetx>
-               <rtoInitial>3000</rtoInitial>
-               <rtomin>1000</rtomin>
-               <rtomax>60000</rtomax>
-               <f1cServerLocalIpAddress>6.1.112.112</f1cServerLocalIpAddress>
-               <x2cServerLocalIpAddress>168.168.31.201</x2cServerLocalIpAddress>
-               <xncServerLocalIpAddress>172.20.5.4</xncServerLocalIpAddress>
-               <xncClientLocalIpAddress>172.20.6.4</xncClientLocalIpAddress>
-                     </gnbCuConfig>
-                   </gnbvs>
+<heartBeatIntervalInMs>4000</heartBeatIntervalInMs>https://github.com/thomas-huangTw/test/blob/main/cu1.xml
